@@ -2,7 +2,7 @@
 
 .button {
   display: inline-block;
-  padding: 6px 12px 6px;
+  padding: 6px 12px 6px 12px;
   border-radius: 4px;
   font-size: 16px;
   background-color: hsl(40, 100%, 45%);
@@ -10,4 +10,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-decoration: none;
+}
+.button:hover {
+  background-color: hsl(40, 100%, 35%);
 }
