@@ -23,3 +23,32 @@
 .button:focus {
   outline: none;
 }
+.button.ok {
+  background-color: hsl(110, 100%, 45%);
+  border: 1px solid hsl(110, 100%, 45%);
+}
+.button.ok:hover {
+  background-color: hsl(110, 100%, 35%);
+  border: 1px solid hsl(110, 100%, 35%);
+}
+.button.ok:active {
+  background-color: hsl(110, 100%, 40%);
+  border: 1px solid hsl(110, 100%, 40%);
+}
+.button.danger {
+  background-color: hsl(0, 100%, 45%);
+  border: 1px solid hsl(0, 100%, 45%);
+}
+.button.danger:hover {
+  background-color: hsl(0, 100%, 35%);
+  border: 1px solid hsl(0, 100%, 35%);
+}
+.button.danger:active {
+  background-color: hsl(0, 100%, 40%);
+  border: 1px solid hsl(0, 100%, 40%);
+}
+.button.small {
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  font-size: 14px;
+}
